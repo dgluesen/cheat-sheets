@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.19.1-->
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="2480.0" width="3508.0" x="0.0" y="0.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#FF00FF" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="1752.0" y="1238.0">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="150.0" width="3508.0" x="0.0" y="0.0"/>
+          <y:Fill color="#9BF244" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Julius Sans One" fontSize="90" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.18991088867188" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1607.8883056640625" x="950.0558471679688" xml:space="preserve" y="23.905044555664062">Data Cleansing &amp; Pre-Processing<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="15.0" y="165.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Julius Sans One" fontSize="45" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="55.09508514404297" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#395819" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">1. Libraries &amp; Data Import</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="1191.0" y="165.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">4.1 Missing Statistics</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="327.0" width="1126.0" x="15.0" y="338.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="314.30078125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; import pandas as pd
+
+&gt;&gt;&gt; df1 = pd.read_csv('file.csv')
+&gt;&gt;&gt; df2 = pd.read_excel('file.xlsx',
+...                     sheet_name = 0,
+...                     header = 1,
+...                     na_values = ['#NV', 'Err'])</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="110.0" width="1126.0" x="15.0" y="228.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">Only two packages are required for data cleansing at first. The next step is to import the file.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="15.0" y="680.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Julius Sans One" fontSize="45" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="55.09508514404297" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#395819" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">2. Inspect Data Set</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="641.0" width="1126.0" x="15.0" y="853.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="622.6015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; a = pd.DataFrame({
+...       'C0': ['1', '2', '3', '4'],
+...       'C1': [.321, .654, .987, .741],
+...       'C2': ['abc', 'def', 'ghi', 'jkl']},
+...       index=['obj0', 'obj1', 'obj2', 'obj3'])
+&gt;&gt;&gt; a.sample(n=2)
+        C0      C1      C2
+obj3     4   0.741     jkl
+obj1     2   0.654     def
+&gt;&gt;&gt; a. describe(include='all')
+        C0      C1      C2
+count    4   4.000       4
+unique   4     NaN       4
+top      3     NaN     jkl
+freq     1     NaN       1
+...    ...     ...     ...</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="110.0" width="1126.0" x="15.0" y="743.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">Draw a random sample of rows in order to get an idea of the content of the data frame.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="15.0" y="1509.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Julius Sans One" fontSize="45" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="55.09508514404297" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#395819" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">3. Data Types</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="246.0" width="1126.0" x="15.0" y="1682.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="237.2255859375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; a.dtypes # C0 should be int64 but is object
+C0     object
+C1    float64
+C2     object
+dtype: object
+&gt;&gt;&gt; a['C0'] = pd.to_numeric(a['C0'])</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="110.0" width="1126.0" x="15.0" y="1572.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">If columns are not correctly recognized as numeric data types, this must be corrected.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="15.0" y="1943.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Julius Sans One" fontSize="45" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="55.09508514404297" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#395819" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">4. Missings</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="363.0" width="1126.0" x="15.0" y="2006.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="352.83837890625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b = pd.DataFrame(
+...    {'Name': ['Anna', 'Bill', 'Charly', 'Diana'],
+...     'Job': ['Data Scientist',
+...             'DATA SCIENTIST',
+...             'Data Engineer ',
+...             ' Data Science'],
+...     'Age': [26, np.nan, 30, 32],
+...     'CompCar': [np.nan, np.nan, np.nan, 'BMW']},
+...    index=['emp01', 'emp02', 'emp03', 'emp04'])</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="169.0" width="1126.0" x="1191.0" y="338.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="160.150390625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; len(b.columns[b.isna().any()])/len(b.columns)
+0.5
+&gt;&gt;&gt; b.isnull().sum().sum()/np.product(b.shape)
+0.25</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="110.0" width="1126.0" x="1191.0" y="228.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">How much columns contain missing values (% of columns)? How much missing data is in the data frame (% of cells)?</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="1191.0" y="522.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">4.2 Missing Types</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="49.0" width="1126.0" x="1191.0" y="1239.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="44.53759765625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b['Age'] = b['Age'].fillna(b['Age'].mean())</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="150.0" width="1126.0" x="1191.0" y="585.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="133.9953155517578" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">It must be considered which origin missing values (probably) have. A distinction must be made between (a) non-existent and (b) non-recorded values. The processing is different here.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="363.0" width="1026.0" x="1241.0" y="735.0"/>
+          <y:Fill color="#FCF3D9" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="italic" hasBackgroundColor="false" hasLineColor="false" height="347.3208312988281" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1026.0" x="4.0" xml:space="preserve" y="4.0">(a) Non-existent
+Example: Employee has no company car, so no manufacturer is recorded.
+Handling: Keep NaN; maybe replaced by specific value,
+e.g. (0, 'nothing')
+(b) Non-recorded
+Example: No information about age of employee
+Handling: Imputation</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="1191.0" y="1113.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">4.3 Imputation</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="1191.0" y="1176.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.665103912353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">1) Use mean/median of column (numerical features only)</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="49.0" width="1126.0" x="1191.0" y="1377.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="44.53759765625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b['Age'] = b['Age'].fillna(b['Age'].mode()[0])</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="89.0" width="1126.0" x="1191.0" y="1288.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">2) Use most frequent value in column (numerical and categorical features)</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="167.0" width="1126.0" x="1191.0" y="1515.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="160.150390625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b.loc[b['Age'].isna(), ['Age']] = (
+...   np.random.choice(np.unique(b['Age'].dropna()),
+...                    b['Age'].isna().sum())
+...   )</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="89.0" width="1126.0" x="1191.0" y="1426.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="91.33020782470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">3) Hot-deck imputation; use a random value of one of the other objects (numerical and categorical features)</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n26">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="393.0" width="1126.0" x="1191.0" y="1682.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="389.9859313964844" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">More sophisticated approachs are among others:
+   4) Regression and stochastic regression imputation
+   5) Imputation via k-NN
+   6) Deep Learning imputation
+   7) Multivariate Imputation by Chained Equations (MICE)
+Some methods (e.g. stochastic regression, hot-deck, MICE) can be used with multiple imputation. Here, the uncertainty is incorporated by using not only a single but multiple imputation values.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="2367.0" y="165.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Julius Sans One" fontSize="45" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="55.09508514404297" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#395819" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">5. Inconsistencies</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="136.0" width="1126.0" x="2367.0" y="228.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="133.9953155517578" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">The meaning of categorical data can be corrupted by incorrect spelling or useless characters. These irregularities must be removed.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="49.0" width="1126.0" x="2367.0" y="442.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="44.53759765625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b['Job'] = b['Job'].str.lower()</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="2367.0" y="379.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">5.1 Upper and lower cases</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="49.0" width="1126.0" x="2367.0" y="569.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="44.53759765625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; b['Job'] = b['Job'].str.strip()</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n32">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="2367.0" y="506.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">5.2 Leading and trailing white spaces</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n33">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="63.0" width="1126.0" x="2367.0" y="633.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="54.759952545166016" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">5.3 Notation similarities</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n34">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="219.0" width="1126.0" x="2367.0" y="696.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Montserrat" fontSize="35" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="219.3255157470703" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">The meaning of expressions can be the same despite different spellings. Here it is possible to make a quantitative comparison of strings and to visualize the permutations. Then it must be decided whether and if so how certain values are adapted/overwritten.</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n35">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="785.0" width="1126.0" x="2367.0" y="915.0"/>
+          <y:Fill color="#ECFCDD" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="3.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Cutive Mono" fontSize="35" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="776.751953125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#2A2E30" verticalTextPosition="bottom" visible="true" width="1126.0" x="4.0" xml:space="preserve" y="4.0">&gt;&gt;&gt; from fuzzywuzzy import process
+&gt;&gt;&gt; import seaborn as sns; sns.set();
+&gt;&gt;&gt; def SpellCheck(df, col):
+...    instances=np.unique(df[col])
+...    dt=[(col, object),('score', int)]
+...    result=np.zeros(shape=(len(instances),
+...                           len(instances)))
+...    for i, inst in enumerate(instances):
+...        result[i]=np.sort(np.array(
+...            process.extract(inst,instances),
+...            dtype = dt),
+...                          order = col)['score']
+...    result=pd.DataFrame(result,
+...                        index=instances,
+...                        columns=instances) 
+...    return result
+&gt;&gt;&gt; # Adjust vmin and vmax to accepted similarities
+&gt;&gt;&gt; ax = sns.heatmap(mapping, vmin=60, vmax=100,
+...                 annot=True, fmt=".0f",
+...                 cmap="Reds")</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n36">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ImageNode>
+          <y:Geometry height="614.6468986384261" width="921.9703479576392" x="2469.0148260211804" y="1700.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="458.9851739788196" y="618.6468986384264"/>
+          <y:Image alphaImage="true" refid="1"/>
+        </y:ImageNode>
+      </data>
+    </node>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" type="java.awt.image.BufferedImage" xml:space="preserve">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&#13;
+5L8BXGaiCQTBAAgAAAAASUVORK5CYII=</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
